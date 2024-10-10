@@ -221,7 +221,7 @@ namespace Calculadora_AlejandroGrijalva
                             }
                             else
                             {
-                                double Resultadooo = listaNumeros[primer] * listaNumeros[segundo];
+                                double Resultadooo = listaNumeros[primer] / listaNumeros[segundo];
                                 listaNumeros.RemoveAt(primer);
                                 listaNumeros[primer] = Resultadooo;
 
